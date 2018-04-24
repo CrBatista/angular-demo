@@ -1,0 +1,17 @@
+server:
+  port: 2030
+  contextPath: /ericsson
+ 
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.99.100:5432/ericsson
+    username: ericsson
+    password: ericsson
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      ddl-auto: none
+
+security:
+  basic:
+    enabled: false
