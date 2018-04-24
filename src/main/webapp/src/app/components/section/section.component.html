@@ -1,0 +1,8 @@
+<div class="section">
+  <span class="section-title">
+    <h3 class="title">{{title | uppercase}}</h3>
+  </span>
+  <span *ngFor="let task of tasks">
+    <app-task (delete)="deleteTask($event)" (update)="updateTask($event)" [task]="task"></app-task>
+  </span>
+</div>

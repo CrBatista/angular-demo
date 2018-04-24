@@ -1,0 +1,12 @@
+#board {
+    width: 100%;
+    height: 100%;
+}
+
+#create-button {
+    cursor: pointer;
+}
+
+#create-button:hover {
+    color: grey;
+}

@@ -1,0 +1,4 @@
+<div id="board">
+  <app-section [tasks]="user.tasks | taskDone:false:reactivate" (updateSections)="updateSections()" [title]="'Backlog'"></app-section>
+  <app-section [tasks]="user.tasks | taskDone:true:reactivate" (updateSections)="updateSections()" [title]="'Done'"></app-section>
+</div>

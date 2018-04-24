@@ -1,0 +1,17 @@
+.section {
+    float: left;
+    width: 40%;
+    height: 80%;
+    margin: 4%;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    border-radius: 0px;
+}
+
+.title {
+    margin: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 100;
+}

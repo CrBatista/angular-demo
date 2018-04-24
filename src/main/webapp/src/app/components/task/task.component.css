@@ -1,0 +1,52 @@
+.task {
+    display: inline-block;
+    width: 150px;
+    box-shadow: 0px 0px 2px black;
+    background: #fbfbfb;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.task:hover {
+    box-shadow: 0px 0px 6px black;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.task-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.resolve-task {
+    color: green;
+}
+
+.resolve-task:hover {
+    color: lightgreen;
+    cursor: pointer;
+}
+
+.undo-icon {
+    color: blue;
+}
+
+.undo-icon:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+.delete-task {
+    color: red;
+}
+
+.delete-task:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: right;
+    margin-bottom: 5px;
+}

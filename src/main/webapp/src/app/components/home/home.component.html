@@ -1,0 +1,5 @@
+<div class="users-wrapper">
+  <div id="user-container" *ngFor="let user of users">
+    <app-user-box [user]="user" (click)="doLogin(user)"></app-user-box>
+  </div>
+</div>

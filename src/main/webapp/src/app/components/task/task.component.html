@@ -1,0 +1,12 @@
+<div class="task" [ngStyle]="taskStyle()">
+    <p class="task-name">{{task.name}}</p>
+    <div class="buttons">
+        <span>
+            <i (click)="updateTask()" *ngIf="!task.done" class="resolve-task fa fa-check"></i>
+            <i (click)="updateTask()"  *ngIf="task.done" class="undo-icon fa fa-arrow-left"></i>
+        </span>
+        <span class="delete-icon">
+            <i (click)="deleteTask()" class="delete-task fa fa-times"></i>
+        </span>
+    </div>
+</div>

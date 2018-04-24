@@ -1,0 +1,24 @@
+.user {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightseagreen;
+    box-shadow: 0px 0px 5px rgb(230, 230, 230);
+    border-radius: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: fantasy;
+}
+
+.user:hover {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 20px rgb(210, 210, 210);
+}
+
+.username {
+    display: block;
+    margin-top: 30px;
+}
+
+.tasks {
+    font-family: 'Gill Sans';
+}
